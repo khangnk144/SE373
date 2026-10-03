@@ -1,6 +1,6 @@
 # BTVN#3 · Dựng agent đặt vé máy bay bằng LangChain
 
-**Môn:** SE373 · **Họ tên:** ……………… · **MSSV:** ……………… · **Ngày:** 03/10/2026
+**Môn:** SE373 · **Họ tên:** Nguyễn Khang · **MSSV:** 24520749 · **Ngày:** 03/10/2026
 
 > **Đề bài.** Tìm hiểu LangChain, LangGraph → Tạo tool mockup → Viết lớp harness cho Agent này. Nộp .py kèm báo cáo.
 > 1. Cài đặt đủ các lớp harness: ràng buộc là dữ liệu, tiêu chí hoàn thành kiểm bằng code, kiểm quyền, bàn giao;
