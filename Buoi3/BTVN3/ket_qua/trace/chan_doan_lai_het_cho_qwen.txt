@@ -1,0 +1,11 @@
+KẾ HOẠCH ĐẦU: ['search_flights: Tìm kiếm các chuyến bay từ SGN đến DAD ngày 07/10 có giờ khởi hành trước 12:00.', 'check_seat: Kiểm tra giá vé thực tế của các chuyến bay phù hợp để chọn chuyến có giá dưới 2.000.000đ.', 'book_seat: Đặt chỗ cho vé máy bay đã chọn.', 'pay: Thực hiện thanh toán cho vé đã đặt.', 'get_booking: Lấy thông tin xác nhận đặt vé và mã đặt chỗ.']
+  BƯỚC: search_flights: Tìm kiếm các chuyến bay từ SGN đến DAD ngày 07/10 có giờ khởi hành trước 12:00.
+      search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {"status": "ok", "count": 5, "fligh
+  BƯỚC: check_seat: Kiểm tra giá vé thực tế của các chuyến bay phù hợp để chọn chuyến có giá dưới 2.000.000đ.
+      check_seat({'flight_id': 'VJ604'}) → {"status": "ok", "flight_id": "VJ604", "seats_left": 0, "price": 1300000,
+      check_seat({'flight_id': 'VN122'}) → {"status": "ok", "flight_id": "VN122", "seats_left": 5, "price": 1850000,
+      check_seat({'flight_id': 'VJ612'}) → {"status": "ok", "flight_id": "VJ612", "seats_left": 5, "price": 1600000,
+      check_seat({'flight_id': 'QH118'}) → {"status": "ok", "flight_id": "QH118", "seats_left": 5, "price": 1400000,
+LẬP LẠI (sau 5 tool): ['book_seat VJ612', 'pay', 'get_booking']
+  BƯỚC: book_seat VJ612
+KẾT CỤC: CẦN NGƯỜI DUYỆT định gọi book_seat({'flight_id': 'VJ612'}) · giá 1.600.000đ vượt hạn mức tự duyệt 1.500.000đ

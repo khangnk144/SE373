@@ -1,0 +1,1352 @@
+[
+ {
+  "mau": "ReAct",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** VJ604 (Vietjet)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10, 06:15\n- **Giá:** 1.300.000đ (đã thanh toán)\n- **Trạng thái:** Confirmed (có thể hoàn vé)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9575,
+  "giay": 26.6,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** VJ604 (Vietjet)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10, 06:15\n- **Giá:** 1.300.000đ (đã thanh toán)\n- **Trạng thái:** Confirmed (có thể hoàn vé)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9575,
+  "giay": 26.3,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** VJ604 (Vietjet)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10, 06:15\n- **Giá:** 1.300.000đ (đã thanh toán)\n- **Trạng thái:** Confirmed (có thể hoàn vé)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9575,
+  "giay": 26.3,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, vé hoàn hủy được)\n\nTất cả điều kiện đều được đáp ứng: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 10230,
+  "giay": 36.1,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, vé hoàn hủy được)\n\nTất cả điều kiện đều được đáp ứng: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 10230,
+  "giay": 35.7,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, vé hoàn hủy được)\n\nTất cả điều kiện đều được đáp ứng: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 10230,
+  "giay": 35.7,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Tôi đã kiểm tra giá thật của 4 chuyến bay trước 12:00:\n\n| Chuyến | Giờ | Giá thật |\n|--------|------|----------|\n| VJ604 | 06:15 | 2.310.000đ ❌ |\n| QH118 | 09:40 | 2.450.000đ ❌ |\n| VJ612 | 11:05 | 2.190.000đ ❌ |\n| VN122 | 07:30 | 2.080.000đ ❌ |\n\n**Không có chuyến nào đáp ứng đủ điều kiện.**\n\nTất cả 4 chuyến khởi hành trước 12:00 đều có giá thật **vượt quá 2.000.000đ** (giá tham khảo ban đầu thấp hơn nhiều so với giá thật). Chuyến rẻ nhất trong nhóm này là VN122 với 2.080.000đ, vẫn cao hơn 80.000đ so với ngân sách.\n\nChuyến VN134 (14:20) có giá tham khảo 1.200.000đ nhưng **bay sau 12:00** nên không thỏa điều kiện giờ bay.\n\nBạn muốn tôi:\n1. **Nới ngân sách** lên ~2.080.000đ để đặt VN122 (07:30)?\n2. **Nới giờ bay** để xem giá thật của VN134 (14:20)?\n3. Hay giữ nguyên điều kiện và không đặt?",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr"
+  ],
+  "so_goi_model": 3,
+  "so_goi_tool": 5,
+  "token": 4201,
+  "giay": 32.1,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Tôi đã kiểm tra giá thật của 4 chuyến bay trước 12:00:\n\n| Chuyến | Giờ | Giá thật |\n|--------|------|----------|\n| VJ604 | 06:15 | 2.310.000đ |\n| QH118 | 09:40 | 2.450.000đ |\n| VJ612 | 11:05 | 2.190.000đ |\n| VN122 | 07:30 | 2.080.000đ |\n\n**Không có chuyến nào đáp ứng đủ điều kiện.**\n\nTất cả 4 chuyến khởi hành trước 12:00 đều có giá thật **vượt quá 2.000.000đ** (rẻ nhất là VN122 với 2.080.000đ). Chuyến duy nhất có giá tham khảo dưới 2 triệu (VN134, 1.200.000đ) lại bay lúc 14:20 — sau 12:00 nên không hợp lệ.\n\nTôi **không đặt vé** vì không có lựa chọn nào thỏa mãn cả 3 ràng buộc (SGN→DAD ngày 07/10, trước 12:00, ≤ 2.000.000đ).\n\nBạn muốn tôi:\n1. **Nới trần giá** (ví dụ lên 2.100.000đ để chọn VN122 lúc 07:30), hay\n2. **Nới giờ bay** (chấp nhận chuyến sau 12:00 như VN134 lúc 14:20), hay\n3. **Thử ngày khác** để tìm chuyến rẻ hơn trước 12:00?\n\nBạn cho tôi biết hướng đi nhé.",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr"
+  ],
+  "so_goi_model": 3,
+  "so_goi_tool": 5,
+  "token": 4252,
+  "giay": 34.5,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Tôi đã kiểm tra giá thật của 4 chuyến bay trước 12:00:\n\n| Chuyến | Giờ | Giá thật |\n|--------|------|----------|\n| VJ604 | 06:15 | 2.310.000đ ❌ |\n| QH118 | 09:40 | 2.450.000đ ❌ |\n| VJ612 | 11:05 | 2.190.000đ ❌ |\n| VN122 | 07:30 | 2.080.000đ ❌ |\n\n**Không có chuyến nào đáp ứng đủ điều kiện.**\n\nTất cả 4 chuyến khởi hành trước 12:00 đều có giá thật **vượt quá 2.000.000đ** (giá tham khảo ban đầu thấp hơn nhiều so với giá thật). Chuyến rẻ nhất trong nhóm này là VN122 với 2.080.000đ, vẫn cao hơn 80.000đ so với ngân sách.\n\nChuyến VN134 (14:20) có giá tham khảo 1.200.000đ nhưng **bay sau 12:00** nên không thỏa điều kiện giờ bay.\n\nBạn muốn tôi:\n1. **Nới ngân sách** lên ~2.080.000đ để đặt VN122 (07:30)?\n2. **Nới giờ bay** để xem giá thật của VN134 (14:20)?\n3. Hay giữ nguyên điều kiện và không đặt?",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+  ],
+  "so_goi_model": 3,
+  "so_goi_tool": 5,
+  "token": 4201,
+  "giay": 31.9,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, hoàn vé được)\n\nĐáp ứng đủ điều kiện: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 9,
+  "token": 11985,
+  "giay": 36.0,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Tuyến:** SGN → DAD\n- **Ngày:** 07/10\n- **Giờ khởi hành:** 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, hoàn vé được)\n\nĐáp ứng đủ điều kiện: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 9,
+  "token": 12010,
+  "giay": 36.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ **Đặt vé thành công!**\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, hoàn vé được)\n\nĐáp ứng đủ điều kiện: khởi hành trước 12:00 và giá dưới 2.000.000đ.",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 9,
+  "token": 11985,
+  "giay": 35.7,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, có hoàn vé)\n\nVé đã được xác nhận (confirmed). Chúc bạn chuyến bay suôn sẻ! ✈️",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9622,
+  "giay": 27.7,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, có hoàn vé)\n\nVé đã được xác nhận (confirmed). Chúc bạn chuyến bay suôn sẻ! ✈️",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9622,
+  "giay": 27.2,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "ReAct",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "✅ Đặt vé thành công!\n\n- **Mã đặt chỗ:** BK100\n- **Chuyến bay:** QH118 (Bamboo)\n- **Hành trình:** SGN → DAD\n- **Ngày/giờ khởi hành:** 07/10 lúc 09:40\n- **Giá:** 1.400.000đ (đã thanh toán, có hoàn vé)\n\nVé đã được xác nhận (confirmed). Chúc bạn chuyến bay suôn sẻ! ✈️",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 8,
+  "token": 9622,
+  "giay": 27.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18938,
+  "giay": 41.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18938,
+  "giay": 40.7,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18938,
+  "giay": 40.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày **07/10**, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, được hoàn vé).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18836,
+  "giay": 39.1,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày **07/10**, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, được hoàn vé).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18836,
+  "giay": 39.2,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "het_cho",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày **07/10**, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, được hoàn vé).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18836,
+  "giay": 39.2,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Không thể lấy thông tin xác nhận vì không có booking_code nào được tạo (quy trình đã dừng ở bước check_seat do không có chuyến nào đạt điều kiện giá ≤ 2.000.000đ).",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+  ],
+  "so_goi_model": 8,
+  "so_goi_tool": 5,
+  "token": 12148,
+  "giay": 34.9,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Không thể lấy thông tin xác nhận vì không có booking_code nào được tạo (quy trình đã dừng ở bước check_seat do không có chuyến nào đạt điều kiện giá ≤ 2.000.000đ).",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+  ],
+  "so_goi_model": 8,
+  "so_goi_tool": 5,
+  "token": 12148,
+  "giay": 34.8,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Không thể lấy thông tin xác nhận vì không có booking_code nào được tạo (quy trình đã dừng ở bước check_seat do không có chuyến nào đạt điều kiện giá ≤ 2.000.000đ).",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+  ],
+  "so_goi_model": 8,
+  "so_goi_tool": 5,
+  "token": 12148,
+  "giay": 34.8,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed): mã đặt chỗ **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, vé hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18710,
+  "giay": 39.3,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed): mã đặt chỗ **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, vé hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18710,
+  "giay": 39.0,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed): mã đặt chỗ **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, vé hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18710,
+  "giay": 38.8,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18888,
+  "giay": 39.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18888,
+  "giay": 39.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "Plan-then-Execute",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 11,
+  "so_goi_tool": 8,
+  "token": 18888,
+  "giay": 39.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20058,
+  "giay": 41.3,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20058,
+  "giay": 41.1,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "binh_thuong",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **VJ604** (Vietjet)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **06:15**\n- Giá: **1.300.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1300000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1300000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"depart_time\": \"06:15\", \"from\": \"SGN\", \"to\": "
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20058,
+  "giay": 41.2,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ VJ604 (1.300.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "het_cho",
+  "ket_cuc": "CẦN NGƯỜI DUYỆT",
+  "tra_loi": "",
+  "ban_giao": {
+   "loai": "CẦN NGƯỜI DUYỆT",
+   "stop_reason": "định gọi book_seat({'flight_id': 'VJ612'}) · giá 1.600.000đ vượt hạn mức tự duyệt 1.500.000đ",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "2/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Duyệt book_seat chuyến VJ612 11:05 giá 1.600.000đ? (có/không)"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr"
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 5,
+  "token": 8867,
+  "giay": 30.5,
+  "tac_dung_phu": [],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "het_cho",
+  "ket_cuc": "CẦN NGƯỜI DUYỆT",
+  "tra_loi": "",
+  "ban_giao": {
+   "loai": "CẦN NGƯỜI DUYỆT",
+   "stop_reason": "định gọi book_seat({'flight_id': 'VJ612'}) · giá 1.600.000đ vượt hạn mức tự duyệt 1.500.000đ",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "2/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Duyệt book_seat chuyến VJ612 11:05 giá 1.600.000đ? (có/không)"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr"
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 5,
+  "token": 8867,
+  "giay": 30.4,
+  "tac_dung_phu": [],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "het_cho",
+  "ket_cuc": "CẦN NGƯỜI DUYỆT",
+  "tra_loi": "",
+  "ban_giao": {
+   "loai": "CẦN NGƯỜI DUYỆT",
+   "stop_reason": "định gọi book_seat({'flight_id': 'VJ612'}) · giá 1.600.000đ vượt hạn mức tự duyệt 1.500.000đ",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "2/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Duyệt book_seat chuyến VJ612 11:05 giá 1.600.000đ? (có/không)"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 0, \"price\": 1300000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr"
+  ],
+  "so_goi_model": 7,
+  "so_goi_tool": 5,
+  "token": 8867,
+  "giay": 30.1,
+  "tac_dung_phu": [],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Kiểm tra giá thực tế 4 chuyến trước 12:00: VJ604 2.310.000đ, VN122 2.080.000đ, QH118 2.450.000đ, VJ612 2.190.000đ — tất cả đều vượt mức 2.000.000đ nên không có chuyến nào đạt yêu cầu.",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr"
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 5,
+  "token": 6921,
+  "giay": 27.1,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 1
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Kiểm tra giá thực tế 4 chuyến trước 12:00: VJ604 2.310.000đ, VN122 2.080.000đ, QH118 2.450.000đ, VJ612 2.190.000đ — tất cả đều vượt mức 2.000.000đ nên không có chuyến nào đạt yêu cầu.",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr"
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 5,
+  "token": 6921,
+  "giay": 26.9,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 2
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "vuot_gia",
+  "ket_cuc": "KHÔNG ĐẠT TIÊU CHÍ",
+  "tra_loi": "Kiểm tra giá thực tế 4 chuyến trước 12:00: VJ604 2.310.000đ, VN122 2.080.000đ, QH118 2.450.000đ, VJ612 2.190.000đ — tất cả đều vượt mức 2.000.000đ nên không có chuyến nào đạt yêu cầu.",
+  "ban_giao": {
+   "loai": "KHÔNG ĐẠT TIÊU CHÍ",
+   "stop_reason": "agent dừng nhưng chưa đạt: chưa có booking nào",
+   "da_thu": [
+    "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+    "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+    "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+    "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr"
+   ],
+   "trang_thai": {
+    "tien_trien": "1/4",
+    "tac_dung_phu": [
+     "chưa có"
+    ]
+   },
+   "cau_hoi_cho_nguoi": "Chưa đặt được vé thoả mọi ràng buộc. Nới ràng buộc nào (giá, giờ, ngày), hay huỷ yêu cầu?"
+  },
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 2310000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 2080000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 2190000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 2450000, \"refundable\": tr"
+  ],
+  "so_goi_model": 6,
+  "so_goi_tool": 5,
+  "token": 6921,
+  "giay": 26.9,
+  "tac_dung_phu": [],
+  "dung": true,
+  "lan": 3
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **QH118** (Bamboo)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **09:40**\n- Giá: **1.400.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 13,
+  "so_goi_tool": 8,
+  "token": 20636,
+  "giay": 42.0,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **QH118** (Bamboo)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **09:40**\n- Giá: **1.400.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 13,
+  "so_goi_tool": 8,
+  "token": 20636,
+  "giay": 42.0,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "loi_timeout",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed):\n- Mã đặt chỗ: **BK100**\n- Chuyến: **QH118** (Bamboo)\n- Tuyến: SGN → DAD, ngày 07/10, khởi hành **09:40**\n- Giá: **1.400.000đ** (đã thanh toán, vé hoàn được)",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"error\", \"error\": \"timeout\", \"flight_id\": \"VJ604\", \"retryable\": true}",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 13,
+  "so_goi_tool": 8,
+  "token": 20636,
+  "giay": 41.5,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20007,
+  "giay": 40.4,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 1
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20007,
+  "giay": 39.9,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 2
+ },
+ {
+  "mau": "Lai",
+  "kich_ban": "can_duyet",
+  "ket_cuc": "ĐẠT",
+  "tra_loi": "Đặt vé thành công (status: confirmed) — Mã đặt chỗ: **BK100**, chuyến **QH118 (Bamboo)** SGN → DAD ngày 07/10, khởi hành **09:40**, giá **1.400.000đ** (đã thanh toán, hoàn được).",
+  "ban_giao": null,
+  "da_thu": [
+   "search_flights({'origin': 'SGN', 'destination': 'DAD', 'date': '07/10'}) → {\"status\": \"ok\", \"count\": 5, \"flights\": [{\"flight_id\": \"VJ604\", \"airline\": \"Vietjet\", \"dep",
+   "check_seat({'flight_id': 'VJ604'}) → {\"status\": \"ok\", \"flight_id\": \"VJ604\", \"seats_left\": 5, \"price\": 1950000, \"refundable\": fa",
+   "check_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"flight_id\": \"QH118\", \"seats_left\": 5, \"price\": 1400000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VN122'}) → {\"status\": \"ok\", \"flight_id\": \"VN122\", \"seats_left\": 5, \"price\": 1850000, \"refundable\": tr",
+   "check_seat({'flight_id': 'VJ612'}) → {\"status\": \"ok\", \"flight_id\": \"VJ612\", \"seats_left\": 5, \"price\": 1600000, \"refundable\": tr",
+   "book_seat({'flight_id': 'QH118'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"booking_status\": \"held\", \"price\": 1400000}",
+   "pay({'booking_code': 'BK100'}) → {\"status\": \"ok\", \"booking_code\": \"BK100\", \"paid\": true, \"amount\": 1400000}",
+   "get_booking({'booking_code': 'BK100'}) → {\"flight_id\": \"QH118\", \"airline\": \"Bamboo\", \"depart_time\": \"09:40\", \"from\": \"SGN\", \"to\": \""
+  ],
+  "so_goi_model": 12,
+  "so_goi_tool": 8,
+  "token": 20007,
+  "giay": 39.9,
+  "tac_dung_phu": [
+   "BK100 giữ chỗ QH118 (1.400.000đ)",
+   "BK100 ĐÃ TRẢ TIỀN"
+  ],
+  "dung": false,
+  "lan": 3
+ }
+]
