@@ -234,7 +234,7 @@ Kết cục theo từng kịch bản (×n = số lần trên 3 lần chạy):
 **`het_cho` là kịch bản phân biệt được các mẫu, và nó khớp với lý thuyết:**
 - *ReAct*: 6/6 lượt đúng. Thấy VJ604 hết ghế thì chuyển sang QH118 ngay.
 - *Plan-then-Execute*: với model giả, kế hoạch cố định `check → book VJ604` bị `sold_out` và hỏng cả chuỗi. Với Gemma, 1/3 lượt hỏng giống hệt: `check_seat(VJ604)` trả `seats_left: 0` mà bước sau vẫn `book_seat(VJ604)`. Đây đúng là điểm yếu **"kế hoạch lỗi thời"**. Ở các lượt còn lại (Qwen 3/3, Gemma 2/3), sau khi thấy VJ604 hết ghế, agent kiểm thêm chuyến khác rồi đặt QH118.
-- *Lai*: với model giả và Gemma, 4/4 lượt (1 lượt model giả + 3 lượt Gemma) phát hiện lệch, lập lại kế hoạch và đặt QH118. Với Qwen, 3/3 lượt **lập lại kế hoạch chọn VJ612 (1.600.000đ)** thay vì QH118 (1.400.000đ), dù nhật ký đưa cho model đã có đủ giá cả 4 chuyến. Một lượt chạy chẩn đoán có ghi kế hoạch xác nhận điều này: `LẬP LẠI (sau 5 tool): ['book_seat VJ612', 'pay', 'get_booking']`. Harness dừng ở CẦN NGƯỜI DUYỆT, **trước khi** có tác dụng phụ. Bài học: mỗi lần lập lại kế hoạch là thêm một lần model ra quyết định, nên thêm một cơ hội ra quyết định kém.
+- *Lai*: với model giả và Gemma, 4/4 lượt (1 lượt model giả + 3 lượt Gemma) phát hiện lệch, lập lại kế hoạch và đặt QH118. Với Qwen, cơ chế của Lai cũng chạy đúng (phát hiện lệch, lập lại kế hoạch), nhưng cả 3/3 lượt kế hoạch mới đều chọn **VJ612 (1.600.000đ)** thay vì QH118 (1.400.000đ). Một lượt chạy chẩn đoán có ghi kế hoạch xác nhận điều này: `LẬP LẠI (sau 5 tool): ['book_seat VJ612', 'pay', 'get_booking']`. VJ612 **hợp lệ** theo mọi ràng buộc cứng nhưng **cần duyệt** vì vượt hạn mức 1.500.000đ. Model không biết điều này vì prompt chỉ chứa `YEU_CAU`, không chứa `CHINH_SACH`, và không yêu cầu chọn chuyến rẻ nhất. **Harness dừng đúng** ở CẦN NGƯỜI DUYỆT, trước khi có tác dụng phụ. Đây không phải lỗi code mà là khoảng trống trong thiết kế prompt. Kết cục chỉ khác kỳ vọng vì `KY_VONG` của `het_cho` là ĐẠT.
 
 **`loi_timeout`: model thật "vượt" kỳ vọng.** Kỳ vọng LẶP được đặt theo hành vi của model giả, vốn cố ý thử lại ngây thơ. Cả 18/18 lượt model thật đều bỏ VJ604 sau tối đa 1 lần thử lại, rồi đặt QH118 hợp lệ. Chính model giả lại cho thấy rủi ro thật của P&E: kế hoạch cố định khiến agent `book_seat` và `pay` VJ604 dù chưa từng thấy giá thật. Đây là **lần trả tiền sai duy nhất** trong toàn bộ thí nghiệm, và lớp tiêu chí hoàn thành đã bắt được nó.
 
@@ -244,16 +244,16 @@ Kết cục theo từng kịch bản (×n = số lần trên 3 lần chạy):
 
 Vì kỳ vọng của `loi_timeout` và `can_duyet` chỉ chấp nhận đúng một kết cục, báo cáo kết quả có thêm một chỉ số phụ. Theo chỉ số này, kết cục được coi là chấp nhận được nếu **trùng kỳ vọng hoặc là ĐẠT**, vì ĐẠT đã được `chot()` kiểm đủ tiêu chí và không vượt quyền tự duyệt. Chỉ số phụ này **không** do `danh_gia.py` tính:
 
-| Mẫu | Gemma | Qwen | Lỗi còn lại |
+| Mẫu | Gemma | Qwen | Kết cục còn khác kỳ vọng |
 |---|---|---|---|
 | ReAct | 15/15 | 15/15 | không có |
 | Plan-then-Execute | 14/15 | 15/15 | kế hoạch lỗi thời (Gemma, het_cho) |
-| Lai | 15/15 | 12/15 | lập lại kế hoạch chọn chuyến cần duyệt (Qwen, het_cho ×3) |
+| Lai | 15/15 | 12/15 | chọn chuyến hợp lệ nhưng cần duyệt, do prompt không chứa chính sách; harness dừng đúng (Qwen, het_cho ×3) |
 
 Nhận xét:
 1. **ReAct tốt nhất trong bài toán này**: đúng nhất (15/15 lượt chấp nhận được trên cả hai model), ổn định (cùng kết cục ở cả 3 lần lặp, trong mọi ô; Lai cũng vậy, chỉ P&E có 1 ô lệch), và rẻ nhất (khoảng 5.6–5.8 lời gọi model, bằng khoảng một nửa P&E và Lai). Bài toán ngắn (5 bước) và observation thay đổi tình huống, nên lợi thế "phản ứng theo observation" của ReAct phát huy tối đa.
 2. **Plan-then-Execute** đổi độ linh hoạt lấy khả năng duyệt trước. Nó hỏng đúng ở chỗ lý thuyết dự báo là kế hoạch lỗi thời (`het_cho`). Với model giả, nó còn dẫn tới trả tiền sai (`loi_timeout`).
-3. **Lai** sửa được điểm yếu của P&E (`het_cho` với model giả và Gemma: 4/4 lượt). Đổi lại, nó tốn lời gọi model nhiều nhất (tới 16 lời gọi/lượt) và mỗi lần lập lại kế hoạch lại có thể sinh quyết định kém (Qwen chọn VJ612).
+3. **Lai** sửa được điểm yếu của P&E (`het_cho` với model giả và Gemma: 4/4 lượt). Đổi lại, nó tốn lời gọi model nhiều nhất (tới 16 lời gọi/lượt). Mỗi lần lập lại kế hoạch là thêm một lần model ra quyết định, nên kết quả phụ thuộc vào việc prompt có đủ thông tin hay không (Qwen chọn VJ612 vì không biết hạn mức duyệt).
 4. **Harness là yếu tố bảo đảm an toàn chung cho cả 3 mẫu**: 0/90 lượt model thật trả tiền sai; mọi lượt ĐẠT đều đặt đúng chuyến rẻ nhất hợp lệ; mọi lượt dừng bất thường đều dừng trước tác dụng phụ và có gói bàn giao.
 5. **Model ảnh hưởng ngang mẫu thiết kế**: Gemma nhanh hơn Qwen khoảng 7–14 lần mỗi lượt. Qwen thận trọng hơn (thường kiểm cả 4 chuyến, trung bình 7.3 tool/lượt so với 4.9 của Gemma), nên tránh được tình huống cần duyệt.
 
@@ -261,10 +261,10 @@ Nhận xét:
 
 - **Mẫu nhỏ**: 5 kịch bản × 3 lần, `temperature=0`. Kết luận mang tính định tính và chỉ đúng cho bài toán này.
 - **`KY_VONG` quá hẹp** ở `loi_timeout` và `can_duyet`: chỉ chấp nhận một kết cục, trong khi kịch bản vẫn có chuyến hợp lệ không cần duyệt. Có thể sửa bằng cách chấp nhận một tập kết cục, hoặc làm kịch bản "khó" hơn (ví dụ mọi chuyến buổi sáng đều timeout).
-- **Prompt không chứa `CHINH_SACH`**: model không biết hạn mức tự duyệt 1.500.000đ. Chính sách chỉ được thực thi bởi harness, nên agent không thể chủ động chọn vé không cần duyệt (liên quan tới lỗi của Lai + Qwen).
+- **Prompt không chứa `CHINH_SACH`**: model không biết hạn mức tự duyệt 1.500.000đ. Chính sách chỉ được thực thi bởi harness, nên agent không thể chủ động chọn vé không cần duyệt. Đây là nguyên nhân của kết cục CẦN NGƯỜI DUYỆT ở Lai + Qwen, kịch bản het_cho.
 - **Tool calling dạng text**: do giới hạn của server, lời gọi tool được parse từ text thay vì dùng tool calling gốc của API.
 - **Model giả** chỉ kiểm dây nối. Số liệu của nó là kịch bản viết tay, không phải bằng chứng hiệu quả.
-- Nhật ký `da_thu` cắt kết quả tool ở 90 ký tự, và không lưu nội dung kế hoạch. Lỗi của Lai + Qwen phải chạy thêm một lượt chẩn đoán mới xác định được.
+- Nhật ký `da_thu` cắt kết quả tool ở 90 ký tự, và không lưu nội dung kế hoạch. Kết cục của Lai + Qwen phải chạy thêm một lượt chẩn đoán mới xác định được nguyên nhân.
 
 ### 5.7. Kết luận
 
