@@ -1,0 +1,7 @@
+{
+  "case": "--max-hours không hợp lệ (-1)",
+  "command": "python workspace/skills/csv-quality/scripts/check_csv.py --input workspace/data/workload.csv --max-hours -1",
+  "exit_code": 2,
+  "stdout": "",
+  "stderr": "usage: check_csv.py [-h] --input INPUT --max-hours MAX_HOURS\ncheck_csv.py: error: argument --max-hours: '-1' không phải số hữu hạn không âm.\n"
+}

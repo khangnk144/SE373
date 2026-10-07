@@ -1,0 +1,7 @@
+{
+  "case": "File không tồn tại",
+  "command": "python workspace/skills/csv-quality/scripts/check_csv.py --input workspace/data/khong-ton-tai.csv --max-hours 8",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "ERROR: Không đọc được file workspace/data/khong-ton-tai.csv: No such file or directory\n"
+}

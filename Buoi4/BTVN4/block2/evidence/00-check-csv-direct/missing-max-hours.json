@@ -1,0 +1,7 @@
+{
+  "case": "Thiếu --max-hours",
+  "command": "python workspace/skills/csv-quality/scripts/check_csv.py --input workspace/data/workload.csv",
+  "exit_code": 2,
+  "stdout": "",
+  "stderr": "usage: check_csv.py [-h] --input INPUT --max-hours MAX_HOURS\ncheck_csv.py: error: the following arguments are required: --max-hours\n"
+}

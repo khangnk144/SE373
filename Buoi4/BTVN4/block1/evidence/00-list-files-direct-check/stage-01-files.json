@@ -1,0 +1,65 @@
+[
+  {
+    "case": "Thư mục hợp lệ",
+    "path": "data/policies",
+    "expected_ok": true,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": true, \"path\": \"data/policies\", \"entries\": [{\"name\": \"policy-before-oct.md\", \"path\": \"data/policies/policy-before-oct.md\", \"type\": \"file\"}, {\"name\": \"policy-from-oct.md\", \"path\": \"data/policies/policy-from-oct.md\", \"type\": \"file\"}]}"
+  },
+  {
+    "case": "Thư mục gốc workspace",
+    "path": ".",
+    "expected_ok": true,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": true, \"path\": \".\", \"entries\": [{\"name\": \".lab-workspace\", \"path\": \".lab-workspace\", \"type\": \"file\"}, {\"name\": \"data\", \"path\": \"data\", \"type\": \"directory\"}, {\"name\": \"output\", \"path\": \"output\", \"type\": \"directory\"}]}"
+  },
+  {
+    "case": "Đường dẫn là file",
+    "path": "data/policies/policy-before-oct.md",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"NOT_A_DIRECTORY\", \"message\": \"Đây là file, không phải thư mục: data/policies/policy-before-oct.md\"}}"
+  },
+  {
+    "case": "Đường dẫn không tồn tại",
+    "path": "data/khong-ton-tai",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"DIRECTORY_NOT_FOUND\", \"message\": \"Không tìm thấy thư mục: data/khong-ton-tai\"}}"
+  },
+  {
+    "case": "Vượt workspace bằng ..",
+    "path": "..",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"PATH_OUTSIDE_WORKSPACE\", \"message\": \"Đường dẫn thoát ra ngoài workspace: ..\"}}"
+  },
+  {
+    "case": "Vượt workspace bằng data/../..",
+    "path": "data/../..",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"PATH_OUTSIDE_WORKSPACE\", \"message\": \"Đường dẫn thoát ra ngoài workspace: data/../..\"}}"
+  },
+  {
+    "case": "Đường dẫn tuyệt đối",
+    "path": "D:\\UITSTUDY\\SE373\\Buoi4\\BTVN4\\block1\\stage-01-files\\workspace\\data",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"PATH_OUTSIDE_WORKSPACE\", \"message\": \"Không chấp nhận đường dẫn tuyệt đối: D:\\\\UITSTUDY\\\\SE373\\\\Buoi4\\\\BTVN4\\\\block1\\\\stage-01-files\\\\workspace\\\\data. Dùng đường dẫn tương đối workspace.\"}}"
+  },
+  {
+    "case": "Junction trỏ ra ngoài workspace",
+    "path": "data/junction-ra-ngoai",
+    "expected_ok": false,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": false, \"error\": {\"code\": \"PATH_OUTSIDE_WORKSPACE\", \"message\": \"Đường dẫn thoát ra ngoài workspace: data/junction-ra-ngoai\"}}"
+  },
+  {
+    "case": "Liệt kê thư mục chứa junction (junction phải bị ẩn)",
+    "path": "data",
+    "expected_ok": true,
+    "passed": true,
+    "raw_tool_result": "{\"ok\": true, \"path\": \"data\", \"entries\": [{\"name\": \"policies\", \"path\": \"data/policies\", \"type\": \"directory\"}, {\"name\": \"weekly_notes.md\", \"path\": \"data/weekly_notes.md\", \"type\": \"file\"}]}"
+  }
+]

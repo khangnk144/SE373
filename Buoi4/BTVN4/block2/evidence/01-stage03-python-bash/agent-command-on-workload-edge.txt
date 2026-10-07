@@ -1,0 +1,5 @@
+# Lệnh Python agent viết ở stage 03 (nguyên văn, xem agent-command.sh), chạy lại trên data/workload-edge.csv
+# (chỉ thay tên file đầu vào; chạy trong workspace của stage 04, nơi có workload-edge.csv)
+Lan: 5
+Minh: 0
+bỏ qua giờ sai: [(2, 'E01', 'Lan', 'abc')]

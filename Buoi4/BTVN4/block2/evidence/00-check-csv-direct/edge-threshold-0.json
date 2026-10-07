@@ -1,0 +1,7 @@
+{
+  "case": "Trường hợp đặc biệt: ID đầu tiên có hours không hợp lệ, ngưỡng 0",
+  "command": "python workspace/skills/csv-quality/scripts/check_csv.py --input workspace/data/workload-edge.csv --max-hours 0",
+  "exit_code": 0,
+  "stdout": "{\n  \"input\": \"workspace/data/workload-edge.csv\",\n  \"row_count\": 3,\n  \"missing_owner_count\": 0,\n  \"invalid_hours_count\": 1,\n  \"duplicate_id_count\": 1,\n  \"duplicate_ids\": [\n    \"E01\"\n  ],\n  \"issues\": [\n    {\n      \"line\": 2,\n      \"column\": \"hours\",\n      \"type\": \"invalid_hours\",\n      \"task_id\": \"E01\",\n      \"value\": \"abc\",\n      \"message\": \"hours 'abc' không phải số hữu hạn không âm.\"\n    },\n    {\n      \"line\": 3,\n      \"column\": \"task_id\",\n      \"type\": \"duplicate_id\",\n      \"task_id\": \"E01\",\n      \"message\": \"task_id E01 đã xuất hiện ở line 2.\"\n    }\n  ],\n  \"max_hours\": 0,\n  \"hours_by_owner\": {\n    \"Minh\": 0\n  },\n  \"overloaded_owners\": [],\n  \"excluded_rows\": [\n    {\n      \"line\": 2,\n      \"task_id\": \"E01\",\n      \"reasons\": [\n        \"invalid_hours\"\n      ]\n    },\n    {\n      \"line\": 3,\n      \"task_id\": \"E01\",\n      \"reasons\": [\n        \"duplicate_id\"\n      ]\n    }\n  ]\n}\n",
+  "stderr": ""
+}
